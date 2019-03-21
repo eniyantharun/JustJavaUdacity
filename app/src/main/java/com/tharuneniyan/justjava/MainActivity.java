@@ -15,22 +15,34 @@ import java.text.NumberFormat;
  * This app displays an order form to order coffee.
  */
 public class MainActivity extends AppCompatActivity {
-
+    int quantity = 2;
+    TextView price_text_view ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        price_text_view = findViewById(R.id.price_text_view);
     }
 
     /**
      * This method is called when the order button is clicked.
      */
     public void submitOrder(View view) {
-        int quantity = 2;
         display(quantity);
         displayPrice(quantity*5);
     }
 
+    public void increment(View view){
+        quantity += 1;
+        display(quantity);
+        displayPrice(quantity*5);
+    }
+
+    public void decrement(View view){
+        quantity -= 1;
+        display(quantity);
+        displayPrice(quantity*5);
+    }
 
     /**
      * This method displays the given quantity value on the screen.
