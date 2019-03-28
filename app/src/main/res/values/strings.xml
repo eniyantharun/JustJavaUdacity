@@ -2,5 +2,12 @@
     <string name="app_name">Just Java</string>
     <string name="quantity">QUANTITY</string>
     <string name="price">PRICE</string>
+
+    <string name="toppings">Toppings</string>
+    <string name="whipped_cream">Whipped Cream</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="order_summary">order summary</string>
     <string name="order">Order</string>
+
+    <string name="_10" translatable="false">$10</string>
 </resources>

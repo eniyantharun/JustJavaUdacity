@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Just Java</string>
+    <string name="quantity">அளவு</string>
+    <string name="price">விலை</string>
+    <string name="order">வாங்கு</string>
+    <string name="toppings">மேல்புறத்தில்</string>
+    <string name="whipped_cream">"தட்டிவிட்டு கிரீம் "</string>
+    <string name="chocolate">சாக்லேட்</string>
+    <string name="order_summary">"ஆர்டர் சுருக்கம் "</string>
+</resources>
